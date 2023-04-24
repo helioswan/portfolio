@@ -1,9 +1,9 @@
 <script setup>
+import AboutMe from "../components/AboutMe.vue";
 import Hero from "../components/Hero.vue";
 </script>
 
 <template>
-  <main>
-    <Hero />
-  </main>
+  <Hero />
+  <AboutMe />
 </template>

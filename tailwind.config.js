@@ -6,7 +6,7 @@ module.exports = {
       colors: {
         primary: "#065993",
         primaryDark: "#052E4A",
-        grey: "D9D9D9",
+        grey: "#343A40",
       },
       fontFamily: {
         sans: ["Ubuntu", "Sans-serif"],
