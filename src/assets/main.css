@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+html {
+  scroll-padding-top: 2rem;
+  scroll-behavior: smooth;
+}
