@@ -1,15 +1,24 @@
 <template>
-  <div class="flex lg:flex-row flex-col gap-16">
-    <div class="lg:basis-1/2 basis-full" :class="{ 'order-2': props.reverse }">
-      <img
-        :src="'/src/assets/img/thumbnails/' + props.img"
-        alt=""
-        class="rounded-xl shadow-lg"
-      />
+  <div class="flex lg:flex-row flex-col lg:gap-16 gap-8">
+    <div
+      class="lg:basis-1/2 basis-full order-1"
+      :class="{ 'lg:order-2': props.reverse }"
+    >
+      <a
+        :href="props.live"
+        :aria-label="'Lien vers le site en ligne du projet ' + props.title"
+        target="_blank"
+      >
+        <img
+          :src="'/src/assets/img/thumbnails/' + props.img"
+          alt=""
+          class="rounded-xl shadow-lg"
+        />
+      </a>
     </div>
     <div
-      class="lg:basis-1/2 basis-full flex flex-col"
-      :class="{ 'order-1': props.reverse }"
+      class="lg:basis-1/2 basis-full flex flex-col order-2"
+      :class="{ 'lg:order-1': props.reverse }"
     >
       <div>
         <h3 class="font-bold text-4xl text-primary mb-4">{{ props.title }}</h3>

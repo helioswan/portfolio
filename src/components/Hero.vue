@@ -12,7 +12,9 @@
           sit amet consectetur
         </p>
         <div class="flex gap-6">
-          <Button label="Go to my work section" href="#mywork">See my work</Button>
+          <Button label="Go to my work section" href="#mywork"
+            >See my work</Button
+          >
           <Button color="empty" label="Download my resume"
             >Download my resume</Button
           >
