@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-white fixed w-full left-0 top-0">
+  <header class="bg-white fixed z-50 w-full left-0 top-0">
     <ul class="text-right container mx-auto">
       <li
         v-for="link in links"

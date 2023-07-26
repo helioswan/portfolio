@@ -1,6 +1,15 @@
 <template>
-  <section>
+  <section class="container mx-auto my-8">
     <TitleSection title="About me" />
+    <div>
+      <img />
+      <div>
+        <p class="text-[0.8rem]">
+          <span class="font-bold">Hello! I'm Hélios Wan.</span>
+        </p>
+        <a></a>
+      </div>
+    </div>
   </section>
 </template>
 
