@@ -8,6 +8,7 @@
       <Timeline :list="educations" title="education" />
     </div>
     <Progress />
+    <Skills/>
   </main>
 </template>
 
@@ -17,6 +18,7 @@ import Hero from "../components/Hero.vue";
 import AboutMe from "../components/Resume/AboutMe.vue";
 import Timeline from "../components/Resume/Timeline.vue";
 import Progress from "../components/Resume/Progress.vue";
+import Skills from "../components/Resume/Skills.vue";
 
 const experiences = [
   {

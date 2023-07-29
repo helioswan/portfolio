@@ -1,5 +1,5 @@
 <template>
-  <div class="md:basis-1/2">
+  <div class="md:basis-1/2" v-motion-slide-visible-once-bottom>
     <h3 class="font-bold text-[0.8rem]">{{ props.title }}</h3>
     <p class="text-[0.8rem] mb-4">
       Niveau {{ legend[filled - 1] }} <br />

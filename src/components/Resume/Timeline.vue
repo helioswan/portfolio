@@ -3,6 +3,7 @@
     <TitleSection :title="props.title" />
     <ul class="mt-4">
       <li
+        v-motion-slide-visible-once-right
         v-for="item in list"
         :key="item.title"
         class="p-12 border-orange-600 border-l-[1px] relative list"
