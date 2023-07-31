@@ -3,12 +3,12 @@
   <main>
     <Hero />
     <AboutMe />
-    <div class="flex flex-row flex-wrap container mx-auto my-8">
+    <div class="flex flex-row flex-wrap container mx-auto my-16">
       <Timeline :list="experiences" title="experience" />
       <Timeline :list="educations" title="education" />
     </div>
     <Progress />
-    <Skills/>
+    <Skills />
   </main>
 </template>
 

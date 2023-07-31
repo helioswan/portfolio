@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto my-8">
+  <section class="container mx-auto my-16">
     <TitleSection title="Languages skills" />
     <ul class="flex flex-wrap gap-16">
       <li v-for="language in languages" :key="language.title">

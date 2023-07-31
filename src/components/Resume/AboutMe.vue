@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto my-8">
+  <section class="container mx-auto my-16">
     <TitleSection title="About me" />
     <div>
       <img />
