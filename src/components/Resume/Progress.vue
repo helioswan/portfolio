@@ -15,7 +15,7 @@
 </template>
 
 <script setup>
-import TitleSection from "../TitleSection.vue";
+import TitleSection from "../Common/TitleSection.vue";
 import ProgressBar from "./ProgressBar.vue";
 
 const legend = ["A1", "A2", "B1", "B2", "C1", "C2"];

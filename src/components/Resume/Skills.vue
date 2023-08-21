@@ -24,7 +24,7 @@
 </template>
 
 <script setup>
-import TitleSection from "../TitleSection.vue";
+import TitleSection from "../Common/TitleSection.vue";
 
 const legend = ["Basic knowledge", "", "Autonomous", "Expert"];
 const skills = [

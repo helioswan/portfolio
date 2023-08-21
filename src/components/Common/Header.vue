@@ -11,7 +11,7 @@
       <li class="inline-block my-6">
         <router-link
           to="contact"
-          class="text-[0.8rem] hover:text-white hover:border-0 hover:bg-orange-600 ease-in-out duration-300 border-gray-200 border px-8 py-2"
+          class="text-[0.8rem] hover:text-white hover:border-orange-600 hover:bg-orange-600 ease-in-out duration-300 border-gray-200 border px-8 py-2"
         >
           Contact
         </router-link>

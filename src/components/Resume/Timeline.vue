@@ -23,7 +23,7 @@
 </template>
 
 <script setup>
-import TitleSection from "../TitleSection.vue";
+import TitleSection from "../Common/TitleSection.vue";
 const props = defineProps({
   title: {
     required: true,

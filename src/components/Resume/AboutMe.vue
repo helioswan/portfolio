@@ -14,7 +14,7 @@
 </template>
 
 <script setup>
-import TitleSection from "../TitleSection.vue";
+import TitleSection from "../Common/TitleSection.vue";
 </script>
 
 <style scoped></style>
