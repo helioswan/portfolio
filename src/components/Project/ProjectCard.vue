@@ -1,7 +1,7 @@
 <template>
   <div class="w-72 h-52 bg bg-slate-300 flex rounded-lg card overflow-hidden">
     <div
-      class="mt-auto w-full p-3 bg-gradient-to-t from-black to-white/0 text-white overflow-clip"
+      class="mt-auto w-full p-3 bg-gradient-to-t from-black/70 to-white/0 text-white overflow-clip"
     >
       <h3 class="font-bold text-[0.8rem]">{{ props.title }}</h3>
       <p class="text-[0.8rem] mb-2">

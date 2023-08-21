@@ -9,7 +9,7 @@
     </div>
     <Progress />
     <Skills />
-    <FavoriteProject />
+    <ProjectDeck title="Favorite projects" :projects="projects" />
   </main>
 </template>
 
@@ -20,7 +20,7 @@ import AboutMe from "../components/Resume/AboutMe.vue";
 import Timeline from "../components/Resume/Timeline.vue";
 import Progress from "../components/Resume/Progress.vue";
 import Skills from "../components/Resume/Skills.vue";
-import FavoriteProject from "../components/Resume/FavoriteProject.vue";
+import ProjectDeck from "../components/Project/ProjectDeck.vue";
 
 const experiences = [
   {
@@ -55,6 +55,41 @@ const educations = [
     date: "2013 - Present",
     title: "Art Director - Facebook Inc",
     text: "Collaborate with creative and development teams on the execution of ideas.",
+  },
+];
+
+const projects = [
+  {
+    title: "Title",
+    desc: "Desc",
+    shortDesc: "Short desc",
+    imgUrl: "",
+    githubLink: "Github",
+    liveLink: "Live",
+  },
+  {
+    title: "Title",
+    desc: "Desc",
+    shortDesc: "Short desc",
+    imgUrl: "",
+    githubLink: "Github",
+    liveLink: "Live",
+  },
+  {
+    title: "Title",
+    desc: "Desc",
+    shortDesc: "Short desc",
+    imgUrl: "",
+    githubLink: "Github",
+    liveLink: "Live",
+  },
+  {
+    title: "Title",
+    desc: "Desc",
+    shortDesc: "Short desc",
+    imgUrl: "",
+    githubLink: "Github",
+    liveLink: "Live",
   },
 ];
 </script>
