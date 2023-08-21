@@ -9,16 +9,18 @@
     </div>
     <Progress />
     <Skills />
+    <FavoriteProject />
   </main>
 </template>
 
 <script setup>
-import Header from "../components/Header.vue";
-import Hero from "../components/Hero.vue";
+import Header from "../components/Common/Header.vue";
+import Hero from "../components/Common/Hero.vue";
 import AboutMe from "../components/Resume/AboutMe.vue";
 import Timeline from "../components/Resume/Timeline.vue";
 import Progress from "../components/Resume/Progress.vue";
 import Skills from "../components/Resume/Skills.vue";
+import FavoriteProject from "../components/Resume/FavoriteProject.vue";
 
 const experiences = [
   {
