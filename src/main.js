@@ -4,9 +4,14 @@ import "./assets/main.css";
 import router from "./router";
 import { MotionPlugin } from "@vueuse/motion";
 import Unicon from "vue-unicons";
-import { uniLinkedin, uniGithub, uniCheck } from "vue-unicons/dist/icons";
+import {
+  uniLinkedin,
+  uniGithub,
+  uniCheck,
+  uniFileDownload,
+} from "vue-unicons/dist/icons";
 
-Unicon.add([uniLinkedin, uniGithub, uniCheck]);
+Unicon.add([uniLinkedin, uniGithub, uniCheck, uniFileDownload]);
 
 const app = createApp(App);
 

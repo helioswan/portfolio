@@ -4,9 +4,11 @@
       <li
         v-for="link in links"
         :key="link.name"
-        class="text-[0.8rem] hover:text-orange-600 inline-block m-8 ease-in-out duration-300"
+        class="text-[0.8rem] hover:text-orange-600 inline-block my-4 mx-8 ease-in-out duration-300"
       >
-        <router-link :to="link.path"> {{ link.name }} </router-link>
+        <a target="_blank" :href="link.path">
+          <unicon :name="link.icon" />
+        </a>
       </li>
     </ul>
   </aside>
@@ -14,9 +16,9 @@
 
 <script setup>
 const links = [
-  { name: "Linkedin", path: "", icon: "" },
-  { name: "Github", path: "", icon: "" },
-  { name: "Resume", path: "", icon: "" },
+  { name: "Linkedin", path: "", icon: "linkedin" },
+  { name: "Github", path: "", icon: "github" },
+  { name: "Resume", path: "", icon: "file-download" },
 ];
 </script>
 
