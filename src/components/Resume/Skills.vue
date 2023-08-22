@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto my-16">
+  <section class="container mx-auto my-16 px-16">
     <TitleSection title="Hard skills" />
     <ul class="flex flex-wrap gap-8">
       <li

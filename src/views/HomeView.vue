@@ -2,7 +2,7 @@
   <main class="mb-28">
     <Hero />
     <AboutMe />
-    <div class="flex flex-row flex-wrap container mx-auto my-16">
+    <div class="flex flex-row flex-wrap container mx-auto my-16 px-16">
       <Timeline :list="experiences" title="experience" />
       <Timeline :list="educations" title="education" />
     </div>
@@ -31,19 +31,24 @@ import Skills from "../components/Resume/Skills.vue";
 import ProjectDeck from "../components/Project/ProjectDeck.vue";
 
 const experiences = [
-  {
-    date: "2013 - Present",
-    title: "Art Director - Facebook Inc",
+{
+    date: "January 2021 - Present",
+    title: "Self-employed - Front End Developer / UI Developer - WANH",
     text: "Collaborate with creative and development teams on the execution of ideas.",
   },
   {
-    date: "2013 - Present",
-    title: "Art Director - Facebook Inc",
+    date: "October 2023 - Present",
+    title: "Apprentice - Software Engineer - Capgemini",
     text: "Collaborate with creative and development teams on the execution of ideas.",
   },
   {
-    date: "2013 - Present",
-    title: "Art Director - Facebook Inc",
+    date: "April 2022 - August 2022",
+    title: "Internship - Front End Developer - Capgemini",
+    text: "Collaborate with creative and development teams on the execution of ideas.",
+  },
+  {
+    date: "July 2020 - December 2020",
+    title: "Internship - UI Developer - Adfinitas",
     text: "Collaborate with creative and development teams on the execution of ideas.",
   },
 ];

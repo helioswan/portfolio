@@ -1,6 +1,6 @@
 <template>
-  <aside class="fixed right-0 bottom-0 bg-white">
-    <ul class="text-right">
+  <aside class="fixed right-0 bottom-0 w-full bg-white">
+    <ul class="text-right flex flex-row justify-center md:justify-end">
       <li
         v-for="link in links"
         :key="link.name"
