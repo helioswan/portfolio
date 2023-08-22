@@ -9,9 +9,10 @@ import {
   uniGithub,
   uniCheck,
   uniFileDownload,
+  uniEnvelope,
 } from "vue-unicons/dist/icons";
 
-Unicon.add([uniLinkedin, uniGithub, uniCheck, uniFileDownload]);
+Unicon.add([uniLinkedin, uniGithub, uniCheck, uniFileDownload, uniEnvelope]);
 
 const app = createApp(App);
 

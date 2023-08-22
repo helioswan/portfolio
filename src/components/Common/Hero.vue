@@ -10,10 +10,10 @@
         UI Developer and Front-end Developer.
       </p>
       <p class="sub text-[0.8rem]" v-else>
-        <router-link to="" class="hover:text-orange-600"> Home </router-link> /
-        <router-link to="" class="hover:text-orange-600">
+        <router-link to="/" class="hover:text-orange-600"> Home </router-link> /
+        <span class="hover:text-orange-600">
           {{ route.name }}
-        </router-link>
+        </span>
       </p>
     </div>
   </section>

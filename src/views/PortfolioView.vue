@@ -1,5 +1,4 @@
 <template>
-  <Header />
   <main class="mb-28">
     <Hero />
     <ProjectDeck title="Favorite projects" :projects="favProjects" />
@@ -10,7 +9,6 @@
 </template>
 
 <script setup>
-import Header from "../components/Common/Header.vue";
 import Hero from "../components/Common/Hero.vue";
 import Social from "../components/Common/Social.vue";
 import ProjectDeck from "../components/Project/ProjectDeck.vue";
