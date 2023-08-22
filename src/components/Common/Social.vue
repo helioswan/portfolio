@@ -1,5 +1,5 @@
 <template>
-  <aside class="fixed w-full right-0 bottom-0">
+  <aside class="fixed w-full right-0 bottom-0 bg-white">
     <ul class="text-right">
       <li
         v-for="link in links"

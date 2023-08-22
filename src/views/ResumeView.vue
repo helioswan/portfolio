@@ -1,6 +1,6 @@
 <template>
   <Header />
-  <main>
+  <main class="mb-28">
     <Hero />
     <AboutMe />
     <div class="flex flex-row flex-wrap container mx-auto my-16">
@@ -11,6 +11,7 @@
     <Skills />
     <ProjectDeck title="Favorite projects" :projects="projects" />
   </main>
+  <Social/>
 </template>
 
 <script setup>
@@ -21,6 +22,7 @@ import Timeline from "../components/Resume/Timeline.vue";
 import Progress from "../components/Resume/Progress.vue";
 import Skills from "../components/Resume/Skills.vue";
 import ProjectDeck from "../components/Project/ProjectDeck.vue";
+import Social from "../components/Common/Social.vue";
 
 const experiences = [
   {
