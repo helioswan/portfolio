@@ -1,6 +1,6 @@
 <template>
   <section class="container mx-auto my-16 px-16">
-    <TitleSection title="Languages skills" />
+    <TitleSection title="Langues" />
     <ul class="flex flex-wrap gap-16">
       <li v-for="language in languages" :key="language.title">
         <ProgressBar

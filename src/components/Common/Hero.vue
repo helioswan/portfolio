@@ -7,7 +7,7 @@
         <span aria-hidden="true"> {{ title }} </span>
       </h1>
       <p class="sub text-[0.8rem]" v-if="route.name === 'Home'">
-        UI Developer and Front-end Developer.
+        Développeur Front-end et Intégrateur web.
       </p>
       <p class="sub text-[0.8rem]" v-else>
         <router-link to="/" class="hover:text-orange-600"> Home </router-link> /
@@ -24,7 +24,7 @@ import { useRoute } from "vue-router";
 
 const route = useRoute();
 
-const title = route.name === "Home" ? "I'M HÉLIOS WAN" : route.name;
+const title = route.name === "Home" ? "HÉLIOS WAN" : route.name;
 </script>
 
 <style scoped>

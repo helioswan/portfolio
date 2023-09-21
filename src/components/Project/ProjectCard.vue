@@ -5,7 +5,7 @@
     >
       <h3 class="font-bold text-[0.8rem]">{{ props.title }}</h3>
       <p class="text-[0.8rem] mb-2">
-        {{ props.shortDesc }}
+        {{ props.desc }}
       </p>
       <div class="links">
         <a
@@ -35,11 +35,6 @@ const props = defineProps({
   desc: {
     required: true,
     default: "Desc",
-    type: String,
-  },
-  shortDesc: {
-    required: true,
-    default: "Short desc",
     type: String,
   },
   imgUrl: {

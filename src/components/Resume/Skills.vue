@@ -1,6 +1,6 @@
 <template>
   <section class="container mx-auto my-16 px-16">
-    <TitleSection title="Hard skills" />
+    <TitleSection title="Compétences techniques" />
     <ul class="flex flex-wrap gap-8">
       <li
         v-for="skill in skills"
@@ -26,24 +26,24 @@
 <script setup>
 import TitleSection from "../Common/TitleSection.vue";
 
-const legend = ["Basic knowledge", "", "Autonomous", "Expert"];
+const legend = ["Débutant", "Autonome", "Expert"];
 const skills = [
-  { name: "HTML", expertise: 2 },
+  { name: "HTML", expertise: 1 },
   {
     name: "CSS",
-    expertise: 2,
+    expertise: 1,
   },
   {
     name: "TailwindCSS",
-    expertise: 2,
+    expertise: 1,
   },
   {
     name: "JS",
-    expertise: 2,
+    expertise: 1,
   },
   {
     name: "ReactJS",
-    expertise: 1,
+    expertise: 0,
   },
   {
     name: "Gatsby",
@@ -51,23 +51,23 @@ const skills = [
   },
   {
     name: "VueJS",
-    expertise: 0,
+    expertise: 1,
   },
   {
     name: "Nuxt",
-    expertise: 0,
+    expertise: 1,
   },
   {
     name: "Svelte",
-    expertise: 0,
+    expertise: 1,
   },
   {
     name: "C/C++",
-    expertise: 0,
+    expertise: 1,
   },
   {
     name: "Docker",
-    expertise: 0,
+    expertise: 1,
   },
   {
     name: "Figma",
@@ -79,7 +79,7 @@ const skills = [
   },
   {
     name: "Git",
-    expertise: 0,
+    expertise: 1,
   },
 ];
 </script>

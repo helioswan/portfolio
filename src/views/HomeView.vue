@@ -3,18 +3,18 @@
     <Hero />
     <AboutMe />
     <div class="flex flex-row flex-wrap container mx-auto my-16 px-16">
-      <Timeline :list="experiences" title="experience" />
-      <Timeline :list="educations" title="education" />
+      <Timeline :list="experiences" title="expériences professionnelles" />
+      <Timeline :list="educations" title="éducation" />
     </div>
     <Progress />
     <Skills />
-    <ProjectDeck title="Favorite projects" :projects="projects" />
+    <ProjectDeck title="Projets favoris" :projects="projects" />
     <div class="mx-auto container flex">
       <router-link
         to="/portfolio"
         class="mx-auto text-[0.8rem] hover:text-white hover:border-orange-600 hover:bg-orange-600 ease-in-out duration-300 border-gray-200 border px-8 py-2"
       >
-        See more projects
+        Voir plus de projets
       </router-link>
     </div>
   </main>
@@ -31,51 +31,53 @@ import Skills from "../components/Resume/Skills.vue";
 import ProjectDeck from "../components/Project/ProjectDeck.vue";
 
 const experiences = [
-{
-    date: "January 2021 - Present",
-    title: "Self-employed - Front End Developer / UI Developer - WANH",
-    text: "Collaborate with creative and development teams on the execution of ideas.",
+  {
+    date: "Janvier 2021 - Présent",
+    title:
+      "Auto-entrepreneur - Développeur web / Intégrateur web - WANH - Lille",
+    text: "Mon activité d'auto-entrepreneur pris naissance à la fin de mon stage chez Adfinitas. Ce status me permet de réaliser diverses missions dans le développement web pour plusieurs clients dont Adfinitas, et ce, en parallèle de mes études à EPITECH.",
   },
   {
-    date: "October 2023 - Present",
-    title: "Apprentice - Software Engineer - Capgemini",
-    text: "Collaborate with creative and development teams on the execution of ideas.",
+    date: "Octobre 2023 - Présent",
+    title: "Alternance - Ingénieur logiciel - Capgemini - Lille",
+    text: "Ma mission au sein de Capgemini fut de façonner des systèmes d'information, des nouvelles solutions spécifiques pour répondre aux enjeux de digitalisation des clients. J'ai eu l'opportunité d'intervenir sur des projets de refonte d'interface, création d'interface, partager des bonnes pratiques et réaliser des audits accessibilité.",
   },
   {
-    date: "April 2022 - August 2022",
-    title: "Internship - Front End Developer - Capgemini",
-    text: "Collaborate with creative and development teams on the execution of ideas.",
+    date: "Avril 2022 - Août 2022",
+    title: "Stage - Ingénieur logiciel - Capgemini - Lille",
+    text: "Ma mission au sein de Capgemini fut de façonner des systèmes d'information, des nouvelles solutions spécifiques pour répondre aux enjeux de digitalisation des clients. J'ai eu l'opportunité d'intervenir sur des projets de refonte d'interface, création d'interface, mise au point d'un design system et réaliser des audits accessibilité.",
   },
   {
-    date: "July 2020 - December 2020",
-    title: "Internship - UI Developer - Adfinitas",
-    text: "Collaborate with creative and development teams on the execution of ideas.",
+    date: "Juillet 2020 - Décembre 2020",
+    title: "Stage - Intégrateur web - Adfinitas - Lille",
+    text: "Adfinitas est une agence de marketing relationnel consacrée aux acteurs de la générosité. Ce stage m'a permis de m'initier au développement web au travers de diverses missions telles que la création de landing page, l'intégration d'email et l'élaboration de script",
   },
 ];
 
 const educations = [
   {
-    date: "2013 - Present",
-    title: "Art Director - Facebook Inc",
-    text: "Collaborate with creative and development teams on the execution of ideas.",
+    date: "2022 - Présent",
+    title: "MSc Pro - Epitech - Lille",
+    text: "MSc Pro est une formation en alternance proposé par Epitech offrant la possibilité aux étudiant de se spécialiser dans un domaine. Le titre d'Expert en management des systèmes d'information m'a permis d'apprendre d'avantage sur l'accompagnement des changements humains d’une organisation, l'assurance de la continuité d'un service, de la robustesse, de la fiabilité et de la sécurité d’un système d’information, la compréhension des enjeux métiers, stratégies et organisationnels d’une entreprise.",
   },
   {
-    date: "2013 - Present",
-    title: "Art Director - Facebook Inc",
-    text: "Collaborate with creative and development teams on the execution of ideas.",
-  },
-  {
-    date: "2013 - Present",
-    title: "Art Director - Facebook Inc",
-    text: "Collaborate with creative and development teams on the execution of ideas.",
+    date: "2019 - 2022",
+    title: "Programme Grande Ecole - Epitech - Lille",
+    text: "Epitech est une école proposant une formation d'Expert des Technologies de l'Information. Cette formation se base sur la découverte par projet imposant une autonomie et une rigueur de l'étudiant. Durant mon cursur, j'ai pu aborder l'algorithmie, le développement web, la programmation système, la sécurité, le DevOps et les mathématiques appliquées.",
   },
 ];
 
 const projects = [
   {
+    title: "Fetits Freres des Pauvres - WANH",
+    desc: "Desc",
+    imgUrl: "",
+    githubLink: "",
+    liveLink: "https://enquetenationale.petitsfreresdespauvres.fr/",
+  },
+  {
     title: "Title",
     desc: "Desc",
-    shortDesc: "Short desc",
     imgUrl: "",
     githubLink: "Github",
     liveLink: "Live",
@@ -83,7 +85,6 @@ const projects = [
   {
     title: "Title",
     desc: "Desc",
-    shortDesc: "Short desc",
     imgUrl: "",
     githubLink: "Github",
     liveLink: "Live",
@@ -91,15 +92,6 @@ const projects = [
   {
     title: "Title",
     desc: "Desc",
-    shortDesc: "Short desc",
-    imgUrl: "",
-    githubLink: "Github",
-    liveLink: "Live",
-  },
-  {
-    title: "Title",
-    desc: "Desc",
-    shortDesc: "Short desc",
     imgUrl: "",
     githubLink: "Github",
     liveLink: "Live",

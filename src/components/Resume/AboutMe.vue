@@ -1,11 +1,11 @@
 <template>
   <section class="container mx-auto my-16 px-16">
-    <TitleSection title="About me" />
+    <TitleSection title="à propos de moi" />
     <div>
       <img />
-      <div>
+      <div class="max-w-4xl">
         <p class="text-[0.8rem]">
-          <span class="font-bold">Hello! I'm Hélios Wan.</span>
+          <span class="font-bold">Hello! Je m'appelle Hélios Wan.</span>
           <br /><br />
           Je suis un développeur Front end, passionné par la création
           d'expériences utilisateur fluides et accessibles pour tous.
@@ -14,13 +14,12 @@
           travailler sur des projets me permettant d’approfondir mes
           connaissances sur le domaine du développement web.
           <br />
-          Je suis également sensible à l'accessibilité et je m'efforce de rendre
-          mes projets le plus accessible à tous les utilisateurs.
+          Je suis également sensible à l'accessibilité et je m'assure de rendre
+          accessible mes projets à tous les utilisateurs.
           <br />
           Mes années de développement Freelance et mes stages m’ont permis
           d’améliorer mes compétences dans la création de sites web performants,
-          responsive et accessible, utilisant les technologies telles que HTML5,
-          CSS3, JavaScript, SvelteJS, TailwindCSS et Vue.js.
+          responsive et accessible.
           <br />
           Enfin, je suis toujours à la recherche de nouveaux défis et de
           nouvelles opportunités pour améliorer mes compétences et mes

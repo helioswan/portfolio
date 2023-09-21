@@ -12,7 +12,6 @@
         <ProjectCard
           :title="project.title"
           :desc="project.desc"
-          :shortDesc="project.shortDesc"
           :imgUrl="project.imgUrl"
           :liveLink="project.liveLink"
           :githubLink="project.githubLink"
