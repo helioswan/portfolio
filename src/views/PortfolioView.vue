@@ -1,5 +1,5 @@
 <template>
-  <main class="mb-28">
+  <main class="mb-28 mx-16">
     <Hero />
     <ProjectDeck title="Favorite projects" :projects="favProjects" />
     <ProjectDeck title="Lastest projects" :projects="lastestProjects" />

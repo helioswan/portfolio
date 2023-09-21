@@ -1,5 +1,5 @@
 <template>
-  <main class="mb-28">
+  <main class="mb-28 mx-16">
     <Hero />
     <AboutMe />
     <div class="flex flex-row flex-wrap container mx-auto my-16 px-16">
