@@ -1,9 +1,9 @@
 <template>
   <section class="container mx-auto my-16 px-16">
     <TitleSection title="à propos de moi" />
-    <div>
-      <img />
-      <div class="max-w-4xl">
+    <div class="md:grid md:grid-cols-5 md:grid-rows-1 gap-8">
+      <img src="../../assets/img/helios.jpeg" alt="" class="m-auto my-4" />
+      <div class="max-w-4xl col-span-4">
         <p class="text-[0.8rem]">
           <span class="font-bold">Hello! Je m'appelle Hélios Wan.</span>
           <br /><br />

@@ -1,7 +1,11 @@
 <template>
-  <div class="w-72 h-52 bg bg-slate-300 flex rounded-lg card overflow-hidden">
+  <div class="w-72 h-52 flex rounded-lg card overflow-hidden relative">
+    <img
+      :src="props.imgUrl"
+      class="absolute top-0 left-0 w-full h-full z-[-1]"
+    />
     <div
-      class="mt-auto w-full p-3 bg-gradient-to-t from-black/70 to-white/0 text-white overflow-clip"
+      class="mt-auto w-full p-3 bg-gradient-to-t from-black to-gray-50/0 text-white overflow-clip"
     >
       <h3 class="font-bold text-[0.8rem]">{{ props.title }}</h3>
       <p class="text-[0.8rem] mb-2">
@@ -12,12 +16,14 @@
           class="text-[0.8rem] hover:text-white hover:border-orange-600 hover:bg-orange-600 ease-in-out duration-600 border-gray-200 border px-8 py-2"
           v-if="props.liveLink"
           :href="props.liveLink"
+          target="_blank"
           >Live</a
         >
         <a
           class="text-[0.8rem] hover:text-white hover:border-orange-600 hover:bg-orange-600 ease-in-out duration-600 border-gray-200 border px-8 py-2"
           v-if="props.githubLink"
           :href="props.githubLink"
+          target="_blank"
           >Github</a
         >
       </div>
