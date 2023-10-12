@@ -3,8 +3,8 @@
     <Hero />
     <AboutMe />
     <div class="flex flex-row flex-wrap container mx-auto my-16 md:px-16 px-0">
-      <Timeline :list="experiences" title="expériences professionnelles" />
-      <Timeline :list="educations" title="éducation" />
+      <Timeline :list="experiences" title="expérience professionnelle" />
+      <Timeline :list="educations" title="formation" />
     </div>
     <Progress />
     <Skills />
