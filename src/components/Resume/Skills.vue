@@ -38,6 +38,10 @@ const skills = [
     expertise: 1,
   },
   {
+    name: "Bootstrap",
+    expertise: 1,
+  },
+  {
     name: "JS",
     expertise: 1,
   },

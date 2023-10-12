@@ -29,14 +29,14 @@ const projects = [
     liveLink: "https://legs.vaincrelamuco.org/",
   },
   {
-    title: "Le Jour du Seigneur",
+    title: "Le Jour du Seigneur - WANH",
     desc: "Campagne de fin d'année",
     imgUrl: "jds-fa22.jpg",
     githubLink: "",
     liveLink: "https://avent2022.lejourduseigneur.com/",
   },
   {
-    title: "Association Valentin Haüy",
+    title: "Association Valentin Haüy - WANH",
     desc: "Campagne de fin d'année",
     imgUrl: "avh_ifi23.png",
     githubLink: "",
