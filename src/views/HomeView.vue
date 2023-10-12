@@ -40,12 +40,12 @@ const experiences = [
   {
     date: "Octobre 2023 - Présent",
     title: "Alternance - Ingénieur logiciel - Capgemini - Lille",
-    text: "Ma mission au sein de Capgemini fut de façonner des systèmes d'information, des nouvelles solutions spécifiques pour répondre aux enjeux de digitalisation des clients. J'ai eu l'opportunité d'intervenir sur des projets de refonte d'interface, création d'interface, partager des bonnes pratiques et réaliser des audits accessibilité.",
+    text: "Ma mission au sein de Capgemini fut de façonner des systèmes d'information, des nouvelles solutions spécifiques pour répondre aux enjeux de digitalisation des clients.<br/> J'ai eu l'opportunité d'intervenir sur des projets de refonte d'interface, création d'interface, partager des bonnes pratiques et réaliser des audits accessibilité.",
   },
   {
     date: "Avril 2022 - Août 2022",
     title: "Stage - Ingénieur logiciel - Capgemini - Lille",
-    text: "Ma mission au sein de Capgemini fut de façonner des systèmes d'information, des nouvelles solutions spécifiques pour répondre aux enjeux de digitalisation des clients. J'ai eu l'opportunité d'intervenir sur des projets de refonte d'interface, création d'interface, mise au point d'un design system et réaliser des audits accessibilité.",
+    text: "Ma mission au sein de Capgemini fut de façonner des systèmes d'information, des nouvelles solutions spécifiques pour répondre aux enjeux de digitalisation des clients.<br/> J'ai eu l'opportunité d'intervenir sur des projets de refonte d'interface, création d'interface, mise au point d'un design system et réaliser des audits accessibilité.",
   },
   {
     date: "Juillet 2020 - Décembre 2020",
@@ -71,28 +71,28 @@ const projects = [
   {
     title: "Petits Freres des Pauvres - WANH",
     desc: "Campagne Enquête Nationale",
-    imgUrl: "src/assets/img/thumbnails/pfp-enquete22.jpg",
+    imgUrl: "../../assets/img/thumbnails/pfp-enquete22.jpg",
     githubLink: "",
     liveLink: "https://enquetenationale.petitsfreresdespauvres.fr/",
   },
   {
     title: "Vaincre la Mucoviscidose - WANH",
     desc: "Campagne LEGS",
-    imgUrl: "src/assets/img/thumbnails/vlm-leg22.jpg",
+    imgUrl: "../../assets/img/thumbnails/vlm-leg22.jpg",
     githubLink: "",
     liveLink: "https://legs.vaincrelamuco.org/",
   },
   {
     title: "Le Jour du Seigneur",
     desc: "Campagne de fin d'année",
-    imgUrl: "src/assets/img/thumbnails/jds-fa22.jpg",
+    imgUrl: "../../assets/img/thumbnails/jds-fa22.jpg",
     githubLink: "",
     liveLink: "https://avent2022.lejourduseigneur.com/",
   },
   {
     title: "Association Valentin Haüy",
     desc: "Campagne de fin d'année",
-    imgUrl: "src/assets/img/thumbnails/avh_ifi23.png",
+    imgUrl: "../../assets/img/thumbnails/avh_ifi23.png",
     githubLink: "",
     liveLink: "https://ifi.avh.asso.fr/",
   },

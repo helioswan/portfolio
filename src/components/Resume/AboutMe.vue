@@ -15,7 +15,7 @@
           connaissances sur le domaine du développement web.
           <br />
           Je suis également sensible à l'accessibilité et je m'assure de rendre
-          accessible mes projets à tous les utilisateurs.
+          mes projets accessible à tous les utilisateurs.
           <br />
           Mes années de développement Freelance et mes stages m’ont permis
           d’améliorer mes compétences dans la création de sites web performants,

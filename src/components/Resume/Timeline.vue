@@ -10,13 +10,10 @@
       >
         <p
           class="text-xs border-orange-600 border-[1px] text-orange-600 absolute top-0 translate-y-[-50%] p-2 date"
-        >
-          {{ item.date }}
-        </p>
+          v-html="item.date"
+        ></p>
         <h3 class="font-bold text-[0.8rem] mb-4">{{ item.title }}</h3>
-        <p class="text-[0.8rem]">
-          {{ item.text }}
-        </p>
+        <p class="text-[0.8rem]" v-html="item.text"></p>
       </li>
     </ul>
   </section>
