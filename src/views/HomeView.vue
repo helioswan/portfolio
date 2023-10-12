@@ -1,8 +1,8 @@
 <template>
-  <main class="mb-28 mx-16">
+  <div class="mb-28">
     <Hero />
     <AboutMe />
-    <div class="flex flex-row flex-wrap container mx-auto my-16 px-16">
+    <div class="flex flex-row flex-wrap container mx-auto my-16 md:px-16 px-0">
       <Timeline :list="experiences" title="expériences professionnelles" />
       <Timeline :list="educations" title="éducation" />
     </div>
@@ -17,7 +17,7 @@
         Voir plus de projets
       </router-link>
     </div>
-  </main>
+  </div>
   <Social />
 </template>
 

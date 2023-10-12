@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto my-16 px-16">
+  <section class="container mx-auto my-16 md:px-16 px-0">
     <TitleSection title="Langues" />
     <ul class="flex flex-wrap gap-16">
       <li v-for="language in languages" :key="language.title">

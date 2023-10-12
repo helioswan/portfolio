@@ -1,10 +1,10 @@
 <template>
-  <main class="mb-28 mx-16">
+  <div class="mb-28 mx-16">
     <Hero />
     <ProjectDeck title="Favorite projects" :projects="favProjects" />
     <ProjectDeck title="Lastest projects" :projects="lastestProjects" />
     <ProjectDeck title="Projects" :projects="projects" />
-  </main>
+  </div>
   <Social/>
 </template>
 

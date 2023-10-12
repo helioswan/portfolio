@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto my-16 px-16">
+  <section class="container mx-auto my-16 md:px-16 px-0">
     <TitleSection title="à propos de moi" />
     <div class="md:grid md:grid-cols-5 md:grid-rows-1 gap-8">
       <img src="../../assets/img/helios.jpeg" alt="" class="m-auto my-4" />
