@@ -1,7 +1,9 @@
 <template>
-  <div class="w-72 h-52 flex rounded-lg card overflow-hidden relative">
+  <div
+    class="w-72 h-52 flex rounded-lg card overflow-hidden relative border shadow-lg"
+  >
     <img
-      :src="props.imgUrl"
+      :src="`/assets/thumbnails/${props.imgUrl}`"
       class="absolute top-0 left-0 w-full h-full z-[-1]"
     />
     <div
