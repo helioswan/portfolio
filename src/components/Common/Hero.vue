@@ -1,7 +1,7 @@
 <template>
   <section class="h-screen container mx-auto flex">
     <div class="m-auto text-center">
-      <h1 class="glitch md:text-8xl text-6xl mb-4">
+      <h1 class="glitch md:text-8xl text-5xl mb-4">
         <span aria-hidden="true">{{ title }}</span>
         {{ title }}
         <span aria-hidden="true"> {{ title }} </span>
