@@ -38,7 +38,7 @@ const experiences = [
     text: "Mon activité d'auto-entrepreneur pris naissance à la fin de mon stage chez Adfinitas. Ce status me permet de réaliser diverses missions dans le développement web pour plusieurs clients dont Adfinitas, et ce, en parallèle de mes études à EPITECH.",
   },
   {
-    date: "Octobre 2023 - Présent",
+    date: "Octobre 2022 - Présent",
     title: "Alternance - Ingénieur logiciel - Capgemini - Lille",
     text: "Ma mission au sein de Capgemini fut de façonner des systèmes d'information, des nouvelles solutions spécifiques pour répondre aux enjeux de digitalisation des clients.<br/> J'ai eu l'opportunité d'intervenir sur des projets de refonte d'interface, création d'interface, partager des bonnes pratiques et réaliser des audits accessibilité.",
   },
