@@ -42,8 +42,12 @@ const skills = [
     expertise: 1,
   },
   {
-    name: "JS",
+    name: "Javascript",
     expertise: 1,
+  },
+  {
+    name: "Typescript",
+    expertise: 0,
   },
   {
     name: "ReactJS",

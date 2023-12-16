@@ -13,7 +13,16 @@
           v-html="item.date"
         ></p>
         <h3 class="font-bold text-[0.8rem] mb-4">{{ item.title }}</h3>
-        <p class="text-[0.8rem]" v-html="item.text"></p>
+        <!-- <p class="text-[0.8rem]" v-html="item.text"></p> -->
+        <ul class="list-disc ml-4">
+          <li
+            v-for="(activity, index) in item.list"
+            :key="index"
+            class="text-[0.8rem]"
+          >
+            {{ activity }}
+          </li>
+        </ul>
       </li>
     </ul>
   </section>
