@@ -42,6 +42,27 @@ const projects = [
     githubLink: "",
     liveLink: "https://ifi.avh.asso.fr/",
   },
+  {
+    title: "Todo VueJS - WANH",
+    desc: "Todo list",
+    imgUrl: "todo-app.jpg",
+    githubLink: "https://github.com/helioswan/TodoVueJS",
+    liveLink: "https://my-todo-vuejs-app.netlify.app/",
+  },
+  {
+    title: "Le Double A - WANH",
+    desc: "Site vitrine",
+    imgUrl: "ledoublea.jpg",
+    githubLink: "",
+    liveLink: "https://ledoublea.com/",
+  },
+  {
+    title: "Portfolio - WANH",
+    desc: "Site personnel",
+    imgUrl: "portfolio.jpg",
+    githubLink: "https://github.com/helioswan/portfolio",
+    liveLink: "https://wareen.me/",
+  },
 ];
 
 const favProjects = [
