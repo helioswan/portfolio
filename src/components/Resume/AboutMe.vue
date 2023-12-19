@@ -25,7 +25,6 @@
           nouvelles opportunités pour améliorer mes compétences et mes
           connaissances dans ce domaine en constante évolution.
         </p>
-        <a></a>
       </div>
     </div>
   </section>
