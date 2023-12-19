@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-72 h-52 flex rounded-lg card overflow-hidden relative border shadow-lg"
+    class="w-72 h-[11.25rem] flex rounded-lg card overflow-hidden relative border shadow-lg"
   >
     <img
       :src="`/assets/thumbnails/${props.imgUrl}`"
