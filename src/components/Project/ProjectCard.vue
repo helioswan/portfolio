@@ -4,6 +4,7 @@
   >
     <img
       :src="`/assets/thumbnails/${props.imgUrl}`"
+      alt=""
       class="absolute top-0 left-0 w-full h-full z-[-1]"
     />
     <div
