@@ -6,7 +6,12 @@
         :key="link.name"
         class="text-[0.8rem] my-6 mx-8"
       >
-        <a target="_blank" :href="link.path" :aria-label="link.label">
+        <a
+          target="_blank"
+          :href="link.path"
+          :aria-label="link.label"
+          :download="link.label === 'Resume'"
+        >
           <unicon
             :name="link.icon"
             class="hover:fill-orange-600 ease-in-out duration-300"
@@ -33,7 +38,7 @@ const links = [
   },
   {
     name: "Resume",
-    path: "",
+    path: "../../assets/file/CV-HeliosWAN-2024.pdf",
     icon: "file-download",
     label: "Télécharger le CV sous format PDF",
   },
