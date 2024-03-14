@@ -51,7 +51,7 @@ const experiences = [
       "Partage des bonnes pratiques au sein de l'équipe.",
       "Réécriture du code pour améliorer les performances.",
       "Intégration des maquettes en mettant l'accent sur une expérience utilisateur.",
-      "Vérifications de la qualité des développements et des intégrations.",
+      "Vérification de la qualité des développements et des intégrations.",
     ],
     text: "Ma mission au sein de Capgemini fut de façonner des systèmes d'information, des nouvelles solutions spécifiques pour répondre aux enjeux de digitalisation des clients.<br/> J'ai eu l'opportunité d'intervenir sur des projets de refonte d'interface, création d'interface, partager des bonnes pratiques et réaliser des audits accessibilité.",
   },
