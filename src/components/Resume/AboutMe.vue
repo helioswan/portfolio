@@ -21,9 +21,10 @@
           d’améliorer mes compétences dans la création de sites web performants,
           responsives et accessibles.
           <br />
-          Enfin, je suis toujours à la recherche de nouveaux défis et de
-          nouvelles opportunités pour améliorer mes compétences et mes
-          connaissances dans ce domaine en constante évolution.
+          Enfin, je suis actuellement à la recherche de nouveaux défis et
+          d'opportunités professionnelles à partir du mois d'août, dans le but
+          de continuellement enrichir mes compétences et mes connaissances dans
+          ce domaine en constante évolution.
         </p>
       </div>
     </div>
