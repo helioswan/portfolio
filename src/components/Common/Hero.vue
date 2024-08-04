@@ -7,7 +7,7 @@
         <span aria-hidden="true"> {{ title }} </span>
       </h1>
       <p class="sub text-[0.8rem]" v-if="route.name === 'Home'">
-        Développeur Front-end et Intégrateur web.
+        Développeur Front-end
       </p>
       <p class="sub text-[0.8rem]" v-else>
         <router-link to="/" class="hover:text-orange-600"> Home </router-link> /
