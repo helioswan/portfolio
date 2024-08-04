@@ -7,24 +7,21 @@
         <p class="text-[0.8rem]">
           <span class="font-bold">Hello! Je m'appelle Hélios Wan.</span>
           <br /><br />
-          Je suis un développeur Front end, passionné par la création
-          d'expériences utilisateurs fluides et accessibles pour tous.
+          Je suis développeur Front-end, passionné par la création d'expériences
+          utilisateur fluides et accessibles à tous.
           <br />
-          Actuellement en alternance chez Capgemini, j'ai la chance de
-          travailler sur des projets me permettant d’approfondir mes
-          connaissances sur le domaine du développement web.
+          Fort de mon expérience en alternance chez Capgemini, j'ai eu
+          l'opportunité de travailler sur des projets qui m'ont permis
+          d'approfondir mes connaissances en développement web.
           <br />
-          Je suis également sensible à l'accessibilité et je m'assure de rendre
-          mes projets accessibles à tous les utilisateurs.
+          Mes années en tant que développeur Freelance et mes différents stages
+          m’ont permis de perfectionner mes compétences dans la création de
+          sites web performants, responsives et accessibles.
           <br />
-          Mes années de développement Freelance et mes stages m’ont permis
-          d’améliorer mes compétences dans la création de sites web performants,
-          responsives et accessibles.
-          <br />
-          Enfin, je suis actuellement à la recherche de nouveaux défis et
-          d'opportunités professionnelles à partir du mois d'août, dans le but
-          de continuellement enrichir mes compétences et mes connaissances dans
-          ce domaine en constante évolution.
+          Aujourd'hui, je suis à la recherche de nouveaux défis et
+          d'opportunités professionnelles à partir du mois de septembre, dans le
+          but de continuer à enrichir mes compétences et mes connaissances dans
+          ce domaine en perpétuelle évolution.
         </p>
       </div>
     </div>
