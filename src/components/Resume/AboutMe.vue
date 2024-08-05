@@ -7,8 +7,8 @@
         <p class="text-[0.8rem]">
           <span class="font-bold">Hello! Je m'appelle Hélios Wan.</span>
           <br /><br />
-          Je suis développeur Front-end, passionné par la création d'expériences
-          utilisateur fluides et accessibles à tous.
+          Je suis développeur Fullstack orienté Front-end, passionné par la
+          création d'expériences utilisateur fluides et accessibles à tous.
           <br />
           Fort de mon expérience en alternance chez Capgemini, j'ai eu
           l'opportunité de travailler sur des projets qui m'ont permis
